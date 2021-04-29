@@ -1,0 +1,69 @@
+body{
+    background-color: #25274D;
+}
+@media  screen and (max-width: 768px ) {    
+    .col-md-3{
+        border-top-left-radius:7px !important;
+        border-top-right-radius:7px !important;
+        border-bottom-left-radius:0 !important;
+        border-bottom-right-radius:0 !important;
+        
+    }
+    .col-md-9{
+        border-bottom-left-radius:7px !important;
+        border-bottom-right-radius:7px !important;
+        border-top-left-radius: 0 !important;
+        border-top-right-radius:0 !important;
+    }
+  }
+
+.contacts{
+margin:15px;
+margin-top: 10%;
+}
+.contacts img{
+    margin-bottom: 15%;
+}
+.contacts h2{
+    margin-bottom: 10%;
+}
+
+.row{
+    /* border-radius: 25px; */
+    margin-top: 20px;
+}
+.col-md-3{
+    background-color: #FF9B00;
+    border-top-left-radius:7px;
+    border-bottom-left-radius:7px;
+    
+}
+.col-md-9{
+    background-color:white;
+    border-top-right-radius:7px;
+    border-bottom-right-radius:7px;
+    padding:20px ;
+}
+
+.font-weight-bold{
+    margin-left: -10px;
+}
+
+.btn{
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color:#25274d;
+    padding: 5px 50px;
+}
+
+.btn:hover{
+    background-color:yellow !important;
+}
+
+.btn:active{
+    background-color:red !important;
+}
+.btn:visited{
+    background-color:white !important;
+}
+
